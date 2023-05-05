@@ -1,0 +1,64 @@
+h1, h2{
+
+    font-family: 'Kanit', sans-serif;
+}
+
+h3, p{
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title-box{
+
+    width: 50vw;
+    height: 10vh;
+    margin-left: 25vw;
+    margin-top: 20vh;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.lorem-form input{
+
+    width: 30px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.lorem-form button{
+
+    padding: 2px;
+    color: white;
+    background-color: rgb(13, 111, 182);
+    border-radius: 5px;
+}
+
+.result{
+
+    padding-bottom: 5vh;
+}
+
+@media all and (max-width:930px) {
+    
+    .title-box{
+
+        width: 80vw;
+        height: 10vh;
+        margin-left: 10vw;
+        margin-top: 20vh;
+    }
+
+}
+
+@media all and (max-width:500px) {
+    
+    .title-box{
+
+        width: 90vw;
+        height: 10vh;
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+}
+
